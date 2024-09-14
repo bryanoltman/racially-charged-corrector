@@ -2,7 +2,7 @@
   "name": "\"Racially Charged\"",
   "action": {},
   "manifest_version": 3,
-  "version": "0.1",
+  "version": "1.0",
   "description": "Corrects usages of \"racially charged\".",
   "permissions": ["activeTab"],
   "content_scripts": [
