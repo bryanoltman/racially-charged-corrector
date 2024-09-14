@@ -1,0 +1,15 @@
+{
+  "name": "\"Racially Charged\"",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "Corrects usages of \"racially charged\".",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["scripts/content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
